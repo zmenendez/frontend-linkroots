@@ -6,7 +6,7 @@ import { isAxiosError } from "axios";
 import { toast } from "sonner";
 import api from "../config/axios";
 
-const RegisterView = () => {
+export default function RegisterView  () {
   const initialValues: RegisterForm = {
     name: "",
     email: "",
@@ -181,4 +181,3 @@ const RegisterView = () => {
   );
 };
 
-export default RegisterView;
